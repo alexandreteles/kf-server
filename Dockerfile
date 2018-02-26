@@ -36,8 +36,8 @@ RUN cp -v /kf/kf.ini /kf/server/System/Default.ini && \
 	curl -O http://www.goodmods.com/Killing-Floor/KFAntiBlocker_1.1/MutKFAntiBlocker.u && \
 	curl -O http://www.goodmods.com/Killing-Floor/KFAntiBlocker_1.1/MutKFAntiBlocker.ucl && \
 	curl -O http://www.goodmods.com/Killing-Floor/KFMapVoteV2/KFMapVoteV2.int && \
-	curl -O http://www.goodmods.com/Killing-Floor/KFMapVoteV2/KFMapVoteV2.u && \
-	
+	curl -O http://www.goodmods.com/Killing-Floor/KFMapVoteV2/KFMapVoteV2.u &&
+
 
 EXPOSE 7707/udp \
 	7708/udp \
