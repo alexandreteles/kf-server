@@ -8,7 +8,7 @@ ARG STEAM_GUARD
 #killing floor server preferences
 ENV KF_LOGIN=admin \
 	KF_PASS=Malkuth793 \
-	KF_MAIL=help@eth0.bid
+	KF_MAIL=help@eth0.bid \
 	KF_GAMELEN=2 \
 	KF_DIFFICULTY=2.0 \
 	KF_SERVER_NAME=KillingForce
