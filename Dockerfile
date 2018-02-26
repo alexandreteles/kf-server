@@ -11,7 +11,7 @@ ENV KF_LOGIN=admin \
 	KF_MAIL=help@eth0.bid \
 	KF_GAMELEN=2 \
 	KF_DIFFICULTY=2.0 \
-	KF_SERVER_NAME=KillingForce
+	KF_SERVER_NAME=KillingForce \
 	KF_CONFIG=/kf/server/System/killingfloor-server.ini \
 	TERM=xterm
 
@@ -36,7 +36,7 @@ RUN cp -v /kf/kf.ini /kf/server/System/Default.ini && \
 	curl -O http://www.goodmods.com/Killing-Floor/KFAntiBlocker_1.1/MutKFAntiBlocker.u && \
 	curl -O http://www.goodmods.com/Killing-Floor/KFAntiBlocker_1.1/MutKFAntiBlocker.ucl && \
 	curl -O http://www.goodmods.com/Killing-Floor/KFMapVoteV2/KFMapVoteV2.int && \
-	curl -O http://www.goodmods.com/Killing-Floor/KFMapVoteV2/KFMapVoteV2.u &&
+	curl -O http://www.goodmods.com/Killing-Floor/KFMapVoteV2/KFMapVoteV2.u
 
 
 EXPOSE 7707/udp \
